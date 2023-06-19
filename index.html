@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio1-precorso</title>
+    <style>
+        body{
+            
+            /*background: linear-gradient(90deg,rgba(255,255,0,0.3)50%,rgba(0,128,0,0.5)100%);*//*inserire i colori con rgba(color,color,color,trasparency)la % indica quanto schermo viene utilizzato*/
+            background: linear-gradient(125deg,yellow 50%,green 100%);
+            text-align: center;
+            color: blue;
+        }
+        fieldset{
+            /*questo tag ti permette di creare gruppi diversi all'interno della pagina*/
+            border: 1px solid rgb(64, 5, 226);
+            border-radius: 20px;                            
+            width: 400px;
+            margin: auto;
+        }
+        table {
+            /*Unisce le celle della tabella*/
+             border-collapse:collapse;
+             
+        }
+        td, th {
+            /*Permette di rappresentare le linee della tabella*/
+            border:2px solid #1405e8;
+            padding:8px;
+        }
+        img{
+            /*Dimensione immagine e bordi raggiati*/
+            width: 190px;
+            height: 190px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="color: red;">Esercizio1 pre-corso</h2>
+    <fieldset>
+        <legend>Dati personali</legend>
+        <div style="text-align: center;">
+            Nome: Valentino <br>
+            Cognome: Nai <br>
+            Hobbies: <br>
+            <ul style="display: inline-block; margin-top: 0;">
+                <li>Moto</li>
+                <li>Tennis</li>
+                <li>Tecnologia</li>
+                <li>Videogames</li>
+            </ul>
+            <table align="center">
+                <caption>Esperienze lavorative e scolastiche</caption>
+                <thead>
+                    <tr>
+                        <th>eperienza</th>
+                        <th>durata</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>perito informatico</td>
+                        <td>5 anni</td>
+                    </tr>
+                    <tr>
+                        <td>programmatore macchine</td>
+                        <td>10 anni</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Contatti</legend>
+        <div>
+            Telefono: 333.......... <br>
+            Mail: esercizio1.precorso@gmail.com <br>
+            Instagram: <a href="https://www.instagram.com">@instagram</a> <br>
+            Facebook: <a href="https://it-it.facebook.com">facebook</a>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Immagini</legend>
+            <img src="https://www.sportoutdoor24.it/app/uploads/2015/06/pexels-jaime-reimer-2662116-670x470.jpg" style="border-radius: 20px;">
+            <img src="https://assets.isu.pub/document-structure/200518100010-14af531242886348613c90d954469f2b/v1/a48d18fe8959e9bff675be4ba4050501.jpg" style="border-radius: 20px;"> <br>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQobt0Nhy2xiNQjE1P6aqXoducf8OvdpL35PA&usqp=CAU" style="border-radius: 20px;">
+            <img src="https://1.bp.blogspot.com/-69HcqkLU4oQ/WDSvVcOoh6I/AAAAAAAARts/16h44GchwR02J4un0-yTNcBWRhLwwGNOgCLcB/s1600/IMG_1600R2_HDR.jpg" style="border-radius: 20px;">
+    </fieldset>
+</body>
+</html>
